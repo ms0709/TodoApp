@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.todo-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px;
+}
+.todo {
+  color: #000000;
+  margin-right:30px ;
+}
+
+button {
+  border: 1px solid #ff0b37;
+  border-radius: 7px;
+  background-color: #ffffff;
+  padding: 5px;
+  font-size: 14px;
+  color: #ff0b37;
+  width: 70px;
+  cursor: pointer;
+}
