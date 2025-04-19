@@ -8,10 +8,12 @@
   justify-content: space-between;
   align-items: center;
   margin: 10px 20px;
+  padding: 20px;
+  box-shadow: 0px 4px 16px 4px #ebeced;
 }
 .todo {
   color: #000000;
-  margin-right:30px ;
+  margin-right: 30px;
 }
 
 button {
@@ -23,4 +25,47 @@ button {
   color: #ff0b37;
   width: 70px;
   cursor: pointer;
+}
+
+.edit-btn {
+  border: 1px solid #ff0b37 !important;
+  color: #ff0b37 !important;
+  background-color: transparent !important;
+  margin-right: 5px;
+}
+
+.option-container {
+  display: flex;
+}
+
+
+.todo-title-input {
+  width: 500px;
+  height: 40px;
+  outline: none;
+  padding: 5px;
+}
+.todo-checkbox {
+  width: 20px;
+  height: 20px;
+}
+.todo-details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+@media (max-width: 768px) {
+  .todo {
+    width: 60%;
+  }
+  .todo-title-input {
+    width: 200px;
+  }
 }
